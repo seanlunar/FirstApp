@@ -17,7 +17,7 @@ export default function App() {
       quality: 1,
     });
 
-    if(! result.canceled){
+    if(!result.canceled){
       setSelectedImage(result.assets[0].uri);
     } else {
       alert(' you did not select any image.')
