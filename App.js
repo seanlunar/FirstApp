@@ -2,6 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Image } from "react-native";
 
 import Button from "./components/Button";
+import CircleButton from './components/CircleButton';
+import IconButton from './components/IconButton';
 
 import ImageViewer from "./components/ImageViewer";
 import * as ImagePicker from "expo-image-picker";
@@ -81,5 +83,13 @@ const styles = StyleSheet.create({
   footerContainer: {
     flex: 1 / 3,
     alignItems: "center",
+  },
+  optionsContainer: {
+    position: 'absolute',
+    bottom: 80,
+  },
+  optionsRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
   },
 });
