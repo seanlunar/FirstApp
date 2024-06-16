@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     height: 440,
     borderRadius: 18,
   },
-  fooerContainer:{
+  footerContainer:{
     flex: 1/3,
     alignItems: 'center',
   },
