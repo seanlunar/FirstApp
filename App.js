@@ -19,6 +19,7 @@ export default function App() {
 
     if (!result.canceled) {
       setSelectedImage(result.assets[0].uri);
+      setShowAppOptions(true);
     } else {
       alert(" you did not select any image.");
     }
@@ -38,7 +39,7 @@ export default function App() {
           label="Choose a photo"
           onPress={pickImageAsync}
         />
-        <Button label="Use this photo" />
+        <Button label="Use this photo" onPress={ () => setShowAppOptions(true)} />
       </View>
       <StatusBar style="auto" />
     </View>
