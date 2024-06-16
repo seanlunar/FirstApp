@@ -41,6 +41,8 @@ export default function App() {
         />
         <Button label="Use this photo" onPress={ () => setShowAppOptions(true)} />
       </View>
+     
+     
       <StatusBar style="auto" />
     </View>
   );
