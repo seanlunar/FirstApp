@@ -6,7 +6,9 @@ const PlaceholderImage  = require('./assets/images/background-image.png')
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={{ color:'red' }} >i have started coding</Text>
+      <View style={stykes.imageContainer}>
+        <Image source={PlaceholderImage} style={styles.image}/>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
