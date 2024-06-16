@@ -37,4 +37,8 @@ const styles = StyleSheet.create({
     height: 440,
     borderRadius: 18,
   },
+  fooerContainer:{
+    flex: 1/3,
+    alignItems: 'center',
+  },
 });
