@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-const PlaceholderImage  = require('./assets/images/background-image.png')
+import ImageViewer from './components/ImageViewer';
 
 export default function App() {
   return (
